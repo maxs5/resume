@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="html, course, css, tags">    
-    <meta name="description" content="Изучение программированию">    
-    <title>School IT</title>
+    <link rel="stylesheet" href="style.css">
+    <title>img html</title>
 </head>
+
 <body>
-    <h1>Maxsim</h1>
-    <p>I want to learn programming and explore <strong><em>new technologies</em></strong> in the field of IT</p>
+    <div class="container">
+    <img class="img" src="img/photo_2025-04-14_19-59-03.jpg" width="200" alt="Ava">
+    <div class="info">
+    <h1>Max Tsipelev</h1>
+    <h2>Список социальных сетей:</h2>
+    <div class="social">
+        <a href="https://vk.com/" target="_blank">Vkontakte</a>
+        <a href="https://www.facebook.com/" target="_blank">facebook</a>
+        <a href="https://web.archive.org/web/20210731131803/https://mobile.twitter.com/login?lang=ru"
+            target="_blank">twitter</a>
+    </div>
+</div>
+    <div class="card">
+        <h3>Мои хобби:</h3>
+        <ol>
+            <li>Горноые лыжи</li>
+            <li>Спорт</li>
+            <li>Путешествие</li>
+            <li>Саморазвитие</li>
+        </ol>
+    </div>
+    <div class="work-card">
+        <h3>Опыт работы</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Название работы</th>
+                    <th>Должность</th>
+                    <th>Период работы</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ООО Логистик</td>
+                    <td>Водитель</td>
+                    <td>2015-2024</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="contacts">
+    <h3>Связаться со мной</h3>
+    <form>
+        <div class="form-group">
+            <label for="text">Ваше имя:</label>
+            <input type="text" id="text" placeholder="Введите имя">
+        </div>
+        <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email">
+        </div>
+        <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" placeholder="Введите сообщение..."></textarea>
+        </div>
+        
+    </form>
+    <button class="btn" type="submit">Отправить</button>
+    </div>
+</div>
 </body>
+
 </html>

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-style: 16px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: normal;
+    color: rgb(45, 78, 13);
+}
+
+.container {
+    padding: 20px;
+    margin: 10px;
+}
+
+.img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+.social {
+    font-style: 16px;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.social a {
+    color: #5f0909;
+    text-decoration: none;
+    
+}
+
+
+.card {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+}
+
+.work-card {
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    
+}
+
+.work-card td {
+    text-align: center;
+}
+
+.work-card tr {
+    text-align: center;
+    line-height: 30px;
+}
+
+.contacts {
+    background-color: rgb(227, 194, 222);
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: rgb(55, 207, 52);
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 10px;
+}
+
+.btn :hover {
+    opacity: 0.8;
+    color: #df0d0d;
+}
+
+@media (max-widht: 500px) {
+    padding: 10px;
+    margin: 5px;
+}
